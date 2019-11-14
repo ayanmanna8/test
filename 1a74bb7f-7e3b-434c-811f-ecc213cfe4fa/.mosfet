@@ -1,0 +1,8 @@
+{
+  "layout": "Grid",
+  "rdbmsId": "1a74bb7f-7e3b-434c-811f-ecc213cfe4fa",
+  "hidden": false,
+  "insightName": "Show first 500 records from sync_drive_list",
+  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\") | SelectTable(sync_drive_list) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
+  "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
+}
