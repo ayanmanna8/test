@@ -1,0 +1,8 @@
+{
+  "layout": "Grid",
+  "rdbmsId": "e09a656f-385f-4f56-889a-f9a0c54f0706",
+  "hidden": false,
+  "insightName": "Show first 500 records from qrtz_simprop_triggers",
+  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\") | SelectTable(qrtz_simprop_triggers) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
+  "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
+}
