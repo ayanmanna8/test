@@ -1,0 +1,8 @@
+{
+  "layout": "Grid",
+  "rdbmsId": "48747293-4d7d-458c-830f-9970ead6ea4b",
+  "hidden": false,
+  "insightName": "Show first 500 records from installed_products",
+  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\") | SelectTable(installed_products) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
+  "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
+}
