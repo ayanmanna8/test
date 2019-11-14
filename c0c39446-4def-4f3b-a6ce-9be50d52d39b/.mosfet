@@ -1,0 +1,8 @@
+{
+  "layout": "Grid",
+  "rdbmsId": "c0c39446-4def-4f3b-a6ce-9be50d52d39b",
+  "hidden": false,
+  "insightName": "Show first 500 records from license_server_details",
+  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\") | SelectTable(license_server_details) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
+  "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
+}
