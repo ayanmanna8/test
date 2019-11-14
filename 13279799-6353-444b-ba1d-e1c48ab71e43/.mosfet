@@ -1,0 +1,8 @@
+{
+  "layout": "Grid",
+  "rdbmsId": "13279799-6353-444b-ba1d-e1c48ab71e43",
+  "hidden": false,
+  "insightName": "Show first 500 records from move_group_request_status",
+  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\") | SelectTable(move_group_request_status) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
+  "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
+}
