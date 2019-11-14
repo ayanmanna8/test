@@ -1,0 +1,8 @@
+{
+  "layout": "Grid",
+  "rdbmsId": "2b509c42-2fc2-4a6f-8266-a81e12401592",
+  "hidden": false,
+  "insightName": "Show first 500 records from failover_logs",
+  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\") | SelectTable(failover_logs) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
+  "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
+}
