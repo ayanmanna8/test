@@ -1,0 +1,8 @@
+{
+  "layout": "panel",
+  "rdbmsId": "8c68b2e6-4a76-4c6f-afec-07e55273eec0",
+  "hidden": false,
+  "insightName": "Inventory",
+  "recipe": "DashboardInsightConfig(insights\u003d[\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c__0e0a6ea7-4175-495c-b0a8-d92e576ccbad\"], oldIds\u003d[\"f35f20f6-55e1-4cd3-9710-0d1ebea1e5b1\"], layout\u003d[\"\u003cencode\u003e{\"currentLayout\":{\"config\":{\"options\":{\"type\":\"custom\",\"xCount\":\"auto\",\"yCount\":\"auto\",\"panelOrder\":[\"SMSSWidgetf35f20f6-55e1-4cd3-9710-0d1ebea1e5b1___0\"]},\"panels\":{\"SMSSWidgetf35f20f6-55e1-4cd3-9710-0d1ebea1e5b1___0\":{\"top\":0,\"left\":0,\"height\":100,\"width\":100,\"index\":0,\"type\":\"STANDARD\"}}},\"selectedWidget\":\"SMSSWidgetf35f20f6-55e1-4cd3-9710-0d1ebea1e5b1___0\",\"availableWidgets\":[{\"widgetId\":\"SMSSWidgetf35f20f6-55e1-4cd3-9710-0d1ebea1e5b1___0\",\"deleted\":false}],\"displayOptions\":{\"type\":\"data\",\"static\":false,\"hidePanelTools\":false,\"disablePanelResize\":false,\"disablePanelMovement\":false,\"filtersPerRow\":4}},\"selectedLayout\":\"panel\"}\u003c/encode\u003e\"] );",
+  "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
+}
