@@ -1,8 +1,0 @@
-{
-  "layout": "Grid",
-  "rdbmsId": "ce1b77a2-9a2b-44be-9020-bcbd82abc957",
-  "hidden": false,
-  "insightName": "Show first 500 records from eventstatus",
-  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\") | SelectTable(eventstatus) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
-  "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
-}
