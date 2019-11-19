@@ -1,8 +1,0 @@
-{
-  "layout": "Grid",
-  "rdbmsId": "c1aea73a-8d68-4e65-9295-1d64ed006f9e",
-  "hidden": false,
-  "insightName": "Show first 500 records from rule_set",
-  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\") | SelectTable(rule_set) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
-  "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
-}
