@@ -1,8 +1,0 @@
-{
-  "layout": "Grid",
-  "rdbmsId": "cb61134b-ce6d-4f90-a1a3-dfed8a4c8c40",
-  "hidden": false,
-  "insightName": "Show first 500 records from motion_source_events_log",
-  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\") | SelectTable(motion_source_events_log) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
-  "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
-}
