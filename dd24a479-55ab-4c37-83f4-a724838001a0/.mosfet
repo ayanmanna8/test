@@ -720,6 +720,8 @@
     "Panel ( 28 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;",
     "Panel ( 28 ) | SetPanelView ( \"DashboardFilter\" , \"\u003cencode\u003e{\"autoRun\":true,\"frame\":\"FRAME989444\"}\u003c/encode\u003e\" ) ;",
     "Panel ( 28 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"RemoteBusinessApplication\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;",
+    "Panel ( 27 ) | SetPanelView ( \"pipeline\" ) ;",
+    "Panel ( 27 ) | SetPanelView ( \"visualization\" ) ;",
     "Panel(0)|SetPanelPosition({\"top\":15,\"left\":26.25,\"width\":57.77777777777777,\"height\":55.308383859502406});",
     "Panel(3)|SetPanelPosition({\"top\":15,\"left\":84.05392840539284,\"width\":15.713621571362157,\"height\":36.66457592863614});",
     "Panel(4)|SetPanelPosition({\"top\":70.38260505958604,\"left\":0.3819444444444444,\"width\":16.875,\"height\":29.349780472506794});",
