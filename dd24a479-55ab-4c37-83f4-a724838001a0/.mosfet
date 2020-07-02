@@ -1286,6 +1286,10 @@
     "Panel ( 30 ) | SetPanelPosition ( { \"top\" : 70 . 73820088745461 , \"left\" : 0 . 40880201845996617 , \"width\" : 14 . 580605325072128 , \"height\" : 29 . 261799112545383 } ) ;",
     "Panel ( 27 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"columnProperties\" : { \"hostname\" : 173 } } } } ) ;",
     "Panel ( 27 ) | RetrievePanelOrnaments ( \"tools.shared\" ) ;",
+    "Panel ( 30 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"columnProperties\" : { \"Subnet\" : 179 } } } } ) ;",
+    "Panel ( 30 ) | RetrievePanelOrnaments ( \"tools.shared\" ) ;",
+    "Panel ( 30 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"columnProperties\" : { \"Subnet\" : 221 } } } } ) ;",
+    "Panel ( 30 ) | RetrievePanelOrnaments ( \"tools.shared\" ) ;",
     "Panel(0)|SetPanelPosition({\"top\":14.973779749899151,\"left\":26.29959652092449,\"width\":59.75322836489838,\"height\":55.59499798305768});",
     "Panel(3)|SetPanelPosition({\"top\":14.973779749899151,\"left\":86.12095855556619,\"width\":13.81090777469047,\"height\":36.662632782035764});",
     "Panel(4)|SetPanelPosition({\"top\":70.56608847653624,\"left\":15.057541013275419,\"width\":13.879041444433799,\"height\":29.433911523463763});",
@@ -1309,6 +1313,6 @@
     "Panel(26)|SetPanelPosition({\"top\":10,\"left\":50,\"width\":25,\"height\":5});",
     "Panel(27)|SetPanelPosition({\"top\":15,\"left\":0.3472222222222222,\"width\":25.972222222222218,\"height\":55.397588682138135});",
     "Panel(29)|SetPanelPosition({\"top\":10,\"left\":75,\"width\":25,\"height\":5});",
-    "Panel(30)|SetPanelPosition({\"top\":70.73820088745461,\"left\":0.40880201845996617,\"width\":14.580605325072128,\"height\":29.261799112545383});"
+    "Panel(30)|SetPanelPosition({\"top\":70.73820088745461,\"left\":0.40880201845996617,\"width\":14.580605325072133,\"height\":29.261799112545383});"
   ]
 }
