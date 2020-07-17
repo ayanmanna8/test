@@ -69,6 +69,11 @@
     "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 3 . 522839585750505 , \"left\" : 50 , \"width\" : 50 , \"height\" : 48 . 293584289458984 } ) ;",
     "Panel ( 5 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 33 . 333333333333336 , \"width\" : 33 . 333333333333336 , \"height\" : 5 } ) ;",
     "ClosePanel ( 5 ) ;",
+    "AddPanel ( 6 ) ;",
+    "Panel ( 6 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;",
+    "Panel ( 6 ) | SetPanelView ( \"DashboardFilter\" , \"\u003cencode\u003e{\"autoRun\":true,\"frame\":\"FRAME356347\"}\u003c/encode\u003e\" ) ;",
+    "Panel ( 6 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"REMOTE_IP\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;",
+    "ClosePanel ( 6 ) ;",
     "Panel(0)|SetPanelPosition({\"top\":5,\"left\":50,\"width\":50,\"height\":48.293584289458984});"
   ]
 }
