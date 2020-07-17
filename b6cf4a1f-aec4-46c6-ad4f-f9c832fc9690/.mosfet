@@ -54,6 +54,6 @@
     "FRAME229929 | UnfilterFrame ( ) ;",
     "FRAME229929 | UnfilterFrame ( ) ;",
     "FRAME229929 | UnfilterFrame ( ) ;",
-    "Panel(0)|SetPanelPosition({\"top\":51.81384555885007,\"left\":50.041666666666664,\"width\":50,\"height\":48.18615444114993});"
+    "Panel(0)|SetPanelPosition({\"top\":51.81384555885007,\"left\":50,\"width\":50.125,\"height\":48.18615444114993});"
   ]
 }
