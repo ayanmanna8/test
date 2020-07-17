@@ -1452,8 +1452,8 @@
     "Panel(20)|SetPanelPosition({\"top\":10,\"left\":0,\"width\":25,\"height\":5});",
     "Panel(21)|SetPanelPosition({\"top\":10,\"left\":25,\"width\":25,\"height\":5});",
     "Panel(26)|SetPanelPosition({\"top\":10,\"left\":50,\"width\":25,\"height\":5});",
-    "Panel(27)|SetPanelPosition({\"top\":14.961110394912122,\"left\":0.375,\"width\":24.625,\"height\":55.666709638605994});",
+    "Panel(27)|SetPanelPosition({\"top\":14.961110394912122,\"left\":0,\"width\":25,\"height\":55.666709638605994});",
     "Panel(29)|SetPanelPosition({\"top\":10,\"left\":75,\"width\":25,\"height\":5});",
-    "Panel(30)|SetPanelPosition({\"top\":70.73820088745461,\"left\":0.40880201845996617,\"width\":14.580605325072133,\"height\":29.261799112545383});"
+    "Panel(30)|SetPanelPosition({\"top\":70.73524988182717,\"left\":0.08333333333333334,\"width\":14.916666666666668,\"height\":29.264750118172834});"
   ]
 }
