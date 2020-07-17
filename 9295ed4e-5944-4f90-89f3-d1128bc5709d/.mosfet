@@ -114,6 +114,7 @@
     "FRAME356347 | UnfilterFrame ( ) ;",
     "FRAME356347 | UnfilterFrame ( ) ;",
     "FRAME356347 | UnfilterFrame ( ) ;",
+    "Frame ( frame \u003d [ FRAME356347 ] ) | Select ( server_ip , ConnectionDirection , Sum ( CONNECTION_COUNT ) ) .as ( [ server_ip , ConnectionDirection , Sum_of_CONNECTION_COUNT ] ) | Group ( server_ip , ConnectionDirection ) | Filter ( ConnectionDirection \u003d\u003d \"Outbound\" ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Column\" , \"alignment\" : { \"label\" : [ \"server_ip\" ] , \"groupBy\" : [ \"ConnectionDirection\" ] , \"value\" : [ \"Sum_of_CONNECTION_COUNT\" ] , \"facet\" : [ \"ConnectionDirection\" ] } , \"groupByInfo\" : { \"selectedDim\" : \"ConnectionDirection\" , \"viewType\" : \"Individual Instance\" , \"instanceIndex\" : \"2\" , \"uniqueInstances\" : [ \"Inbound\" , \"Internal\" , \"Outbound\" , \"Unknown\" ] } } } ) | Collect ( 2000 ) ;",
     "Panel(0)|SetPanelPosition({\"top\":4.591104734576758,\"left\":0.10416666666666667,\"width\":49.895833333333336,\"height\":47.48923959827834});",
     "Panel(5)|SetPanelPosition({\"top\":0,\"left\":5,\"width\":28.333333333333336,\"height\":5});",
     "Panel(6)|SetPanelPosition({\"top\":0,\"left\":33.333333333333336,\"width\":33.333333333333336,\"height\":5});",
