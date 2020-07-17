@@ -61,6 +61,15 @@
     "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 51 . 7038373941816 , \"left\" : 0 , \"width\" : 50 , \"height\" : 48 . 2961626058184 } ) ;",
     "Panel ( 5 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 66 . 66666666666667 , \"width\" : 33 . 333333333333336 , \"height\" : 3 . 4128314210820334 } ) ;",
     "ClosePanel ( 5 ) ;",
-    "Panel(0)|SetPanelPosition({\"top\":51.7038373941816,\"left\":0,\"width\":50,\"height\":48.2961626058184});"
+    "AddPanel ( 5 ) ;",
+    "Panel ( 5 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;",
+    "Panel ( 5 ) | SetPanelView ( \"DashboardFilter\" , \"\u003cencode\u003e{\"autoRun\":true,\"frame\":\"FRAME356347\"}\u003c/encode\u003e\" ) ;",
+    "Panel ( 5 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"ConnectionDirection\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;",
+    "AddPanel ( 6 ) ;",
+    "Panel ( 6 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"subType\" : \"UNFILTER\" , \"opacity\" : 100 , \"labelOverride\" : true , \"panelLabel\" : \"Unfilter Sheet\" , \"zIndex\" : 4 } } ] ) ;",
+    "Panel ( 6 ) | SetPanelView ( \"unfilter-sheet\" ) ;",
+    "ClosePanel ( 5 ) ;",
+    "Panel(0)|SetPanelPosition({\"top\":51.7038373941816,\"left\":0,\"width\":50,\"height\":48.2961626058184});",
+    "Panel(6)|SetPanelPosition({\"top\":0,\"left\":0,\"width\":5,\"height\":5});"
   ]
 }
