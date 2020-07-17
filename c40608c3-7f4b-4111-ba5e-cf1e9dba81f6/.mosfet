@@ -1,7 +1,7 @@
 {
   "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c",
   "rdbmsId": "c40608c3-7f4b-4111-ba5e-cf1e9dba81f6",
-  "insightName": "Affinity Insights v2",
+  "insightName": "Affinity Insights (Detailed)",
   "layout": "panel",
   "hidden": false,
   "recipe": [
