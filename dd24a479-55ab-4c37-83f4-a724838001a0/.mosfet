@@ -1427,6 +1427,10 @@
     "Panel ( 27 ) | RetrievePanelOrnaments ( \"tools.shared\" ) ;",
     "Panel ( 27 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"columnProperties\" : { \"hostname\" : 156 } } } } ) ;",
     "Panel ( 27 ) | RetrievePanelOrnaments ( \"tools.shared\" ) ;",
+    "Frame ( frame \u003d [ FRAME989444 ] ) | Select ( business_application , hostname , Remote_Business_Application , REMOTE_IP ) .as ( [ business_application , hostname , Remote_Business_Application , REMOTE_IP ] ) | Group ( business_application , hostname , Remote_Business_Application , REMOTE_IP ) | Filter ( ConnectionDirection \u003d\u003d \"Internal\" ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027graph\u0027 ] , options \u003d [ { \"connections\" : \"business_application.Remote_Business_Application;hostname.REMOTE_IP;\" } ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Graph\" , \"alignment\" : { \"start\" : [ \"business_application\" , \"hostname\" ] , \"end\" : [ \"Remote_Business_Application\" , \"REMOTE_IP\" ] , \"groupBy\" : [ \"ConnectionDirection\" ] } , \"groupByInfo\" : { \"selectedDim\" : \"ConnectionDirection\" , \"viewType\" : \"Individual Instance\" , \"instanceIndex\" : \"1\" , \"uniqueInstances\" : [ \"Inbound\" , \"Internal\" , \"Outbound\" , \"Unknown\" ] } } } ) | Collect ( 2000 ) ;",
+    "Frame ( frame \u003d [ FRAME989444 ] ) | Select ( business_application , hostname , Remote_Business_Application , REMOTE_IP ) .as ( [ business_application , hostname , Remote_Business_Application , REMOTE_IP ] ) | Group ( business_application , hostname , Remote_Business_Application , REMOTE_IP ) | Filter ( ConnectionDirection \u003d\u003d \"Outbound\" ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027graph\u0027 ] , options \u003d [ { \"connections\" : \"business_application.Remote_Business_Application;hostname.REMOTE_IP;\" } ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Graph\" , \"alignment\" : { \"start\" : [ \"business_application\" , \"hostname\" ] , \"end\" : [ \"Remote_Business_Application\" , \"REMOTE_IP\" ] , \"groupBy\" : [ \"ConnectionDirection\" ] } , \"groupByInfo\" : { \"selectedDim\" : \"ConnectionDirection\" , \"viewType\" : \"Individual Instance\" , \"instanceIndex\" : \"2\" , \"uniqueInstances\" : [ \"Inbound\" , \"Internal\" , \"Outbound\" , \"Unknown\" ] } } } ) | Collect ( 2000 ) ;",
+    "Panel ( 27 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"columnProperties\" : { \"hostname\" : 153 } } } } ) ;",
+    "Panel ( 27 ) | RetrievePanelOrnaments ( \"tools.shared\" ) ;",
     "Panel(0)|SetPanelPosition({\"top\":14.961110394912122,\"left\":25.083333333333336,\"width\":60.958333333333336,\"height\":55.55670147393752});",
     "Panel(3)|SetPanelPosition({\"top\":14.973779749899151,\"left\":86.12095855556619,\"width\":13.81090777469047,\"height\":36.662632782035764});",
     "Panel(4)|SetPanelPosition({\"top\":70.56608847653624,\"left\":15.057541013275419,\"width\":13.879041444433799,\"height\":29.433911523463763});",
@@ -1448,7 +1452,7 @@
     "Panel(20)|SetPanelPosition({\"top\":10,\"left\":0,\"width\":25,\"height\":5});",
     "Panel(21)|SetPanelPosition({\"top\":10,\"left\":25,\"width\":25,\"height\":5});",
     "Panel(26)|SetPanelPosition({\"top\":10,\"left\":50,\"width\":25,\"height\":5});",
-    "Panel(27)|SetPanelPosition({\"top\":14.961110394912122,\"left\":0.375,\"width\":24.708333333333332,\"height\":55.666709638605994});",
+    "Panel(27)|SetPanelPosition({\"top\":14.961110394912122,\"left\":0.375,\"width\":24.625,\"height\":55.666709638605994});",
     "Panel(29)|SetPanelPosition({\"top\":10,\"left\":75,\"width\":25,\"height\":5});",
     "Panel(30)|SetPanelPosition({\"top\":70.73820088745461,\"left\":0.40880201845996617,\"width\":14.580605325072133,\"height\":29.261799112545383});"
   ]
