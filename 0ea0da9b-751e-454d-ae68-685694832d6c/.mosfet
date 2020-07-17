@@ -66,7 +66,7 @@
     "FRAME793308 | UnfilterFrame ( ) ;",
     "Frame ( frame \u003d [ FRAME793308 ] ) | Select ( REMOTE_IP , ConnectionDirection , Sum ( CONNECTION_COUNT ) ) .as ( [ REMOTE_IP , ConnectionDirection , Sum_of_CONNECTION_COUNT ] ) | Group ( REMOTE_IP , ConnectionDirection ) | Filter ( ConnectionDirection \u003d\u003d \"Internal\" ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Column\" , \"alignment\" : { \"label\" : [ \"REMOTE_IP\" ] , \"groupBy\" : [ \"ConnectionDirection\" ] , \"value\" : [ \"Sum_of_CONNECTION_COUNT\" ] , \"facet\" : [ \"ConnectionDirection\" ] } , \"groupByInfo\" : { \"selectedDim\" : \"ConnectionDirection\" , \"viewType\" : \"Individual Instance\" , \"instanceIndex\" : \"1\" , \"uniqueInstances\" : [ \"Inbound\" , \"Internal\" , \"Outbound\" , \"Unknown\" ] } } } ) | Collect ( 2000 ) ;",
     "FRAME793308 | UnfilterFrame ( ) ;",
-    "Panel(0)|SetPanelPosition({\"top\":4.950367410081217,\"left\":50,\"width\":50,\"height\":46.86605646512827});",
+    "Panel(0)|SetPanelPosition({\"top\":3.522839585750505,\"left\":50,\"width\":50,\"height\":48.293584289458984});",
     "Panel(5)|SetPanelPosition({\"top\":0,\"left\":33.333333333333336,\"width\":33.333333333333336,\"height\":5});"
   ]
 }
