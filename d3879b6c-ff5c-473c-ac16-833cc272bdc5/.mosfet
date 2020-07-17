@@ -58,7 +58,9 @@
     "FRAME247346 | UnfilterFrame ( ) ;",
     "FRAME247346 | UnfilterFrame ( ) ;",
     "FRAME247346 | UnfilterFrame ( ) ;",
-    "Panel(0)|SetPanelPosition({\"top\":51.7038373941816,\"left\":0,\"width\":50,\"height\":48.2961626058184});",
-    "Panel(5)|SetPanelPosition({\"top\":0,\"left\":66.66666666666667,\"width\":33.333333333333336,\"height\":3.4128314210820334});"
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 51 . 7038373941816 , \"left\" : 0 , \"width\" : 50 , \"height\" : 48 . 2961626058184 } ) ;",
+    "Panel ( 5 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 66 . 66666666666667 , \"width\" : 33 . 333333333333336 , \"height\" : 3 . 4128314210820334 } ) ;",
+    "ClosePanel ( 5 ) ;",
+    "Panel(0)|SetPanelPosition({\"top\":51.7038373941816,\"left\":0,\"width\":50,\"height\":48.2961626058184});"
   ]
 }
