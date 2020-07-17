@@ -93,6 +93,24 @@
     "Panel ( 4 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 0 , \"width\" : 5 , \"height\" : 5 } ) ;",
     "ClosePanel ( 3 ) ;",
     "ClosePanel ( 4 ) ;",
-    "Panel(0)|SetPanelPosition({\"top\":3.522839585750505,\"left\":0,\"width\":50,\"height\":48.293584289458984});"
+    "AddPanel ( 5 ) ;",
+    "Panel ( 5 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;",
+    "Panel ( 5 ) | SetPanelView ( \"DashboardFilter\" , \"\u003cencode\u003e{\"autoRun\":true,\"frame\":\"FRAME356347\"}\u003c/encode\u003e\" ) ;",
+    "Panel ( 5 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"server_ip\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;",
+    "Panel ( 5 ) | SetPanelLabel ( \"Host Server IP\" ) ;",
+    "AddPanel ( 6 ) ;",
+    "Panel ( 6 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;",
+    "Panel ( 6 ) | SetPanelView ( \"DashboardFilter\" , \"\u003cencode\u003e{\"autoRun\":true,\"frame\":\"FRAME356347\"}\u003c/encode\u003e\" ) ;",
+    "Panel ( 6 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"REMOTE_IP\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;",
+    "Panel ( 6 ) | SetPanelLabel ( \"Remote Server IP\" ) ;",
+    "AddPanel ( 7 ) ;",
+    "Panel ( 7 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;",
+    "Panel ( 7 ) | SetPanelView ( \"DashboardFilter\" , \"\u003cencode\u003e{\"autoRun\":true,\"frame\":\"FRAME356347\"}\u003c/encode\u003e\" ) ;",
+    "Panel ( 7 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"ConnectionDirection\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;",
+    "Panel ( 7 ) | SetPanelLabel ( \"Connection Direction\" ) ;",
+    "Panel(0)|SetPanelPosition({\"top\":5,\"left\":0,\"width\":50,\"height\":48.293584289458984});",
+    "Panel(5)|SetPanelPosition({\"top\":0,\"left\":5,\"width\":28.333333333333336,\"height\":5});",
+    "Panel(6)|SetPanelPosition({\"top\":0,\"left\":33.333333333333336,\"width\":33.333333333333336,\"height\":5});",
+    "Panel(7)|SetPanelPosition({\"top\":0,\"left\":66.66666666666667,\"width\":33.333333333333336,\"height\":5});"
   ]
 }
