@@ -1,7 +1,7 @@
 {
   "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c",
   "rdbmsId": "d3879b6c-ff5c-473c-ac16-833cc272bdc5",
-  "insightName": "Affinity Insights (High Level) - 2",
+  "insightName": "Affinity Master - 2",
   "layout": "panel",
   "hidden": true,
   "recipe": [
@@ -73,6 +73,8 @@
     "ifError ( ( Frame ( frame \u003d [ FRAME247346 ] ) | Select ( ConnectionDirection , Count ( business_application ) ) .as ( [ ConnectionDirection , Count_of_business_application ] ) | Group ( ConnectionDirection ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Pie\" , \"alignment\" : { \"label\" : [ \"ConnectionDirection\" ] , \"value\" : [ \"Count_of_business_application\" ] } } } ) | Collect ( 2000 ) ) , ( true ) ) ;",
     "FRAME247346 | UnfilterFrame ( ) ;",
     "FRAME247346 | UnfilterFrame ( ) ;",
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 52 . 1464483692149 , \"left\" : 0 , \"width\" : 50 , \"height\" : 47 . 8535516307851 } ) ;",
+    "Panel ( 6 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 0 , \"width\" : 5 , \"height\" : 5 } ) ;",
     "Panel(0)|SetPanelPosition({\"top\":52.1464483692149,\"left\":0,\"width\":50,\"height\":47.8535516307851});",
     "Panel(6)|SetPanelPosition({\"top\":0,\"left\":0,\"width\":5,\"height\":5});"
   ]
