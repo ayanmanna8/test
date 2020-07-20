@@ -1,7 +1,7 @@
 {
   "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c",
   "rdbmsId": "0ea0da9b-751e-454d-ae68-685694832d6c",
-  "insightName": "Affinity Insights (High Level) - 1",
+  "insightName": "Affinity Master - 1",
   "layout": "panel",
   "hidden": true,
   "recipe": [
@@ -81,6 +81,7 @@
     "FRAME793308 | UnfilterFrame ( ) ;",
     "Frame ( frame \u003d [ FRAME793308 ] ) | Select ( REMOTE_IP , ConnectionDirection , Sum ( CONNECTION_COUNT ) ) .as ( [ REMOTE_IP , ConnectionDirection , Sum_of_CONNECTION_COUNT ] ) | Group ( REMOTE_IP , ConnectionDirection ) | Filter ( ConnectionDirection \u003d\u003d \"Outbound\" ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Column\" , \"alignment\" : { \"label\" : [ \"REMOTE_IP\" ] , \"groupBy\" : [ \"ConnectionDirection\" ] , \"value\" : [ \"Sum_of_CONNECTION_COUNT\" ] , \"facet\" : [ \"ConnectionDirection\" ] } , \"groupByInfo\" : { \"selectedDim\" : \"ConnectionDirection\" , \"viewType\" : \"Individual Instance\" , \"instanceIndex\" : \"2\" , \"uniqueInstances\" : [ \"Inbound\" , \"Internal\" , \"Outbound\" , \"Unknown\" ] } } } ) | Collect ( 2000 ) ;",
     "Frame ( frame \u003d [ FRAME793308 ] ) | Select ( REMOTE_IP , ConnectionDirection , Sum ( CONNECTION_COUNT ) ) .as ( [ REMOTE_IP , ConnectionDirection , Sum_of_CONNECTION_COUNT ] ) | Group ( REMOTE_IP , ConnectionDirection ) | Filter ( ConnectionDirection \u003d\u003d \"Internal\" ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Column\" , \"alignment\" : { \"label\" : [ \"REMOTE_IP\" ] , \"groupBy\" : [ \"ConnectionDirection\" ] , \"value\" : [ \"Sum_of_CONNECTION_COUNT\" ] , \"facet\" : [ \"ConnectionDirection\" ] } , \"groupByInfo\" : { \"selectedDim\" : \"ConnectionDirection\" , \"viewType\" : \"Individual Instance\" , \"instanceIndex\" : \"1\" , \"uniqueInstances\" : [ \"Inbound\" , \"Internal\" , \"Outbound\" , \"Unknown\" ] } } } ) | Collect ( 2000 ) ;",
-    "Panel(0)|SetPanelPosition({\"top\":4.51033475140733,\"left\":50,\"width\":50,\"height\":47.636113617807574});"
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 4 . 51033475140733 , \"left\" : 50 , \"width\" : 50 , \"height\" : 47 . 636113617807574 } ) ;",
+    "Panel(0)|SetPanelPosition({\"top\":4.51033475140733,\"left\":50,\"width\":50,\"height\":47.746121782476045});"
   ]
 }
