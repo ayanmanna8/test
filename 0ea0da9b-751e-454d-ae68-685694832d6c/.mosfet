@@ -98,6 +98,9 @@
     "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.toggleTrendline\" ) ;",
     "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"colorName\" : \"Seven\" , \"color\" : { } , \"backgroundColor\" : \"#FFFFFF\" } } } ) ;",
     "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools\" ) ;",
-    "Panel(0)|SetPanelPosition({\"top\":4.553272444486167,\"left\":50.02232006557138,\"width\":50.111608502207936,\"height\":47.54783709550279});"
+    "if ( ( FrameHeaderExists ( frame \u003d [ FRAME793308 ] , column \u003d [ remote_ip ] ) ) , ( FRAME793308 | SetFrameFilter ( ( remote_ip \u003d\u003d [ \"10.10.6.141\" ] ) ) ) , ( false ) ) ;",
+    "ifError ( ( Frame ( frame \u003d [ FRAME793308 ] ) | Select ( remote_ip , Average ( connection_count ) ) .as ( [ remote_ip , Average_of_connection_count ] ) | Group ( remote_ip ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Column\" , \"alignment\" : { \"label\" : [ \"remote_ip\" ] , \"value\" : [ \"Average_of_connection_count\" ] } } } ) | Collect ( 2000 ) ) , ( true ) ) ;",
+    "FRAME793308 | UnfilterFrame ( ) ;",
+    "Panel(0)|SetPanelPosition({\"top\":5,\"left\":50.02232006557138,\"width\":49.977679934428615,\"height\":47.54783709550279});"
   ]
 }
