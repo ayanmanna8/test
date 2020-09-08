@@ -59,6 +59,7 @@
     "ifError ( ( Frame ( frame \u003d [ FRAME229929 ] ) | Select ( ConnectionDirection , Count ( Remote_Business_Application ) ) .as ( [ ConnectionDirection , Count_of_Remote_Business_Application ] ) | Group ( ConnectionDirection ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Pie\" , \"alignment\" : { \"label\" : [ \"ConnectionDirection\" ] , \"value\" : [ \"Count_of_Remote_Business_Application\" ] } } } ) | Collect ( 2000 ) ) , ( true ) ) ;",
     "FRAME229929 | UnfilterFrame ( ) ;",
     "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 52 . 1464483692149 , \"left\" : 50 , \"width\" : 50 , \"height\" : 47 . 8535516307851 } ) ;",
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 52 . 1464483692149 , \"left\" : 50 , \"width\" : 50 , \"height\" : 47 . 8535516307851 } ) ;",
     "Panel(0)|SetPanelPosition({\"top\":52.1464483692149,\"left\":50,\"width\":50,\"height\":47.8535516307851});"
   ]
 }
