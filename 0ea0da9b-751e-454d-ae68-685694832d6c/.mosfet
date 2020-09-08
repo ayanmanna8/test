@@ -83,6 +83,21 @@
     "Frame ( frame \u003d [ FRAME793308 ] ) | Select ( REMOTE_IP , ConnectionDirection , Sum ( CONNECTION_COUNT ) ) .as ( [ REMOTE_IP , ConnectionDirection , Sum_of_CONNECTION_COUNT ] ) | Group ( REMOTE_IP , ConnectionDirection ) | Filter ( ConnectionDirection \u003d\u003d \"Internal\" ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Column\" , \"alignment\" : { \"label\" : [ \"REMOTE_IP\" ] , \"groupBy\" : [ \"ConnectionDirection\" ] , \"value\" : [ \"Sum_of_CONNECTION_COUNT\" ] , \"facet\" : [ \"ConnectionDirection\" ] } , \"groupByInfo\" : { \"selectedDim\" : \"ConnectionDirection\" , \"viewType\" : \"Individual Instance\" , \"instanceIndex\" : \"1\" , \"uniqueInstances\" : [ \"Inbound\" , \"Internal\" , \"Outbound\" , \"Unknown\" ] } } } ) | Collect ( 2000 ) ;",
     "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 4 . 51033475140733 , \"left\" : 50 , \"width\" : 50 , \"height\" : 47 . 636113617807574 } ) ;",
     "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 4 . 51033475140733 , \"left\" : 50 , \"width\" : 50 , \"height\" : 47 . 746121782476045 } ) ;",
+    "if ( ( FRAME793308 | HasDuplicates ( remote_ip ) ) , ( Frame ( frame \u003d [ FRAME793308 ] ) | Select ( remote_ip , Average ( connection_count ) ) .as ( [ remote_ip , Average_of_connection_count ] ) | Group ( remote_ip ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Column\" , \"alignment\" : { \"label\" : [ \"remote_ip\" ] , \"value\" : [ \"Average_of_connection_count\" ] , \"tooltip\" : [ ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ) , ( Frame ( frame \u003d [ FRAME793308 ] ) | Select ( remote_ip , connection_count ) .as ( [ remote_ip , connection_count ] ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Column\" , \"alignment\" : { \"label\" : [ \"remote_ip\" ] , \"value\" : [ \"connection_count\" ] , \"tooltip\" : [ ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ) ) ;",
+    "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"toggleZoomX\" : true } } } ) ;",
+    "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.toggleZoomX\" ) ;",
+    "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"toggleZoomY\" : true } } } ) ;",
+    "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.toggleZoomY\" ) ;",
+    "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"toggleShadow\" : false } } } ) ;",
+    "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.toggleShadow\" ) ;",
+    "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"toggleTrendline\" : \"Smooth\" } } } ) ;",
+    "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.toggleTrendline\" ) ;",
+    "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"toggleTrendline\" : \"Smooth\" } } } ) ;",
+    "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.toggleTrendline\" ) ;",
+    "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"toggleTrendline\" : \"No Trendline\" } } } ) ;",
+    "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.toggleTrendline\" ) ;",
+    "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"colorName\" : \"Seven\" , \"color\" : { } , \"backgroundColor\" : \"#FFFFFF\" } } } ) ;",
+    "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools\" ) ;",
     "Panel(0)|SetPanelPosition({\"top\":4.553272444486167,\"left\":50.02232006557138,\"width\":50.111608502207936,\"height\":47.54783709550279});"
   ]
 }
