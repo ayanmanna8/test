@@ -75,6 +75,8 @@
     "FRAME247346 | UnfilterFrame ( ) ;",
     "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 52 . 1464483692149 , \"left\" : 0 , \"width\" : 50 , \"height\" : 47 . 8535516307851 } ) ;",
     "Panel ( 6 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 0 , \"width\" : 5 , \"height\" : 5 } ) ;",
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 52 . 1464483692149 , \"left\" : 0 , \"width\" : 50 , \"height\" : 47 . 8535516307851 } ) ;",
+    "Panel ( 6 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 0 , \"width\" : 5 , \"height\" : 5 } ) ;",
     "Panel(0)|SetPanelPosition({\"top\":52.1464483692149,\"left\":0,\"width\":50,\"height\":47.8535516307851});",
     "Panel(6)|SetPanelPosition({\"top\":0,\"left\":0,\"width\":5,\"height\":5});"
   ]
