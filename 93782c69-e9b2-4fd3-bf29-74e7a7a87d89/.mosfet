@@ -65,7 +65,9 @@
     "if ( ( FRAME941572 | HasDuplicates ( DATA_COLLECTION_TIME ) ) , ( Frame ( frame \u003d [ FRAME941572 ] ) | Select ( DATA_COLLECTION_TIME , Average ( MEMORY_PERCENTAGE ) ) .as ( [ DATA_COLLECTION_TIME , Average_of_MEMORY_PERCENTAGE ] ) | Group ( DATA_COLLECTION_TIME ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Line\" , \"alignment\" : { \"label\" : [ \"DATA_COLLECTION_TIME\" ] , \"value\" : [ \"Average_of_MEMORY_PERCENTAGE\" ] , \"tooltip\" : [ ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ) , ( Frame ( frame \u003d [ FRAME941572 ] ) | Select ( DATA_COLLECTION_TIME , MEMORY_PERCENTAGE ) .as ( [ DATA_COLLECTION_TIME , MEMORY_PERCENTAGE ] ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Line\" , \"alignment\" : { \"label\" : [ \"DATA_COLLECTION_TIME\" ] , \"value\" : [ \"MEMORY_PERCENTAGE\" ] , \"tooltip\" : [ ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ) ) ;",
     "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 10 , \"left\" : 50 , \"width\" : 50 , \"height\" : 50 } ) ;",
     "Panel ( 1 ) | SetPanelPosition ( { \"top\" : 60 , \"left\" : 50 , \"width\" : 50 , \"height\" : 40 } ) ;",
-    "Panel(0)|SetPanelPosition({\"top\":4.549762682217408,\"left\":50.015621184110934,\"width\":50.17187880158396,\"height\":50.331757385793296});",
-    "Panel(1)|SetPanelPosition({\"top\":55.10268137352193,\"left\":50.015621184110934,\"width\":50.07812880873651,\"height\":44.89731862647806});"
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 4 . 549762682217408 , \"left\" : 50 . 015621184110934 , \"width\" : 50 . 17187880158396 , \"height\" : 50 . 331757385793296 } ) ;",
+    "Panel ( 1 ) | SetPanelPosition ( { \"top\" : 55 . 10268137352193 , \"left\" : 50 . 015621184110934 , \"width\" : 50 . 07812880873651 , \"height\" : 44 . 89731862647806 } ) ;",
+    "Panel(0)|SetPanelPosition({\"top\":4.676144978945669,\"left\":49.968746187687216,\"width\":50.03125381231279,\"height\":50.331757385793296});",
+    "Panel(1)|SetPanelPosition({\"top\":55.10268137352193,\"left\":50.015621184110934,\"width\":49.98437881588906,\"height\":44.89731862647806});"
   ]
 }
