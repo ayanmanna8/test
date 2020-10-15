@@ -33,6 +33,7 @@
     "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools\" ) ;",
     "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"editYAxis\" : { \"title\" : { \"show\" : true , \"name\" : \"Average of MEMRORY PERCENTAGE\" } , \"values\" : true , \"line\" : true , \"rotate\" : 0 , \"nameGap\" : 25 , \"min\" : { \"show\" : false } , \"max\" : { \"show\" : false } , \"format\" : { \"delimiter\" : \"Default\" , \"prepend\" : \"\" , \"type\" : \"Default\" , \"append\" : \"\" , \"maxLength\" : 10 } } } } } ) ;",
     "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools\" ) ;",
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 5 , \"left\" : 50 , \"width\" : 50 , \"height\" : 50 } ) ;",
     "Panel(0)|SetPanelPosition({\"top\":5,\"left\":50,\"width\":50,\"height\":50});"
   ]
 }
