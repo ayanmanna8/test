@@ -23,6 +23,7 @@
     "Panel ( 0 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"opacity\" : 100 , \"type\" : \"STANDARD\" , \"backgroundColor\" : \"#FFFFFF\" , \"zIndex\" : 1 } } ] ) ;",
     "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"watermark\" : \"\" , \"backgroundColor\" : \"#FFFFFF\" } } } ) ;",
     "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools\" ) ;",
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 55 , \"left\" : 50 , \"width\" : 50 , \"height\" : 45 } ) ;",
     "Panel(0)|SetPanelPosition({\"top\":55,\"left\":50,\"width\":50,\"height\":45});"
   ]
 }
