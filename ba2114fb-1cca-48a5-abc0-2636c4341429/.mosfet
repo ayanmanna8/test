@@ -51,9 +51,21 @@
     "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools\" ) ;",
     "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"editYAxis\" : { \"title\" : { \"show\" : true , \"name\" : \"Average of CPU PERCENTAGE\" } , \"values\" : true , \"line\" : true , \"rotate\" : 0 , \"nameGap\" : 25 , \"min\" : { \"show\" : false } , \"max\" : { \"show\" : false } , \"format\" : { \"delimiter\" : \"Default\" , \"prepend\" : \"\" , \"type\" : \"Default\" , \"append\" : \"\" , \"maxLength\" : 10 } } } } } ) ;",
     "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools\" ) ;",
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 5 , \"left\" : 0 , \"width\" : 50 , \"height\" : 50 } ) ;",
+    "Panel ( 1 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 5 , \"width\" : 45 , \"height\" : 5 } ) ;",
+    "Panel ( 2 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 0 , \"width\" : 5 , \"height\" : 5 } ) ;",
+    "Panel ( 3 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 50 , \"width\" : 50 , \"height\" : 5 } ) ;",
+    "AddPanel ( 4 ) ;",
+    "Panel ( 4 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;",
+    "Panel ( 4 ) | SetPanelView ( \"DashboardFilter\" , \"\u003cencode\u003e{\"autoRun\":true,\"frame\":\"FRAME933466\"}\u003c/encode\u003e\" ) ;",
+    "Panel ( 4 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"hostname\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;",
+    "Panel ( 1 ) | SetPanelLabel ( \"Operating System\" ) ;",
+    "Panel ( 3 ) | SetPanelLabel ( \"Business Application\" ) ;",
+    "Panel ( 4 ) | SetPanelLabel ( \"Hostname\" ) ;",
     "Panel(0)|SetPanelPosition({\"top\":5,\"left\":0,\"width\":50,\"height\":50});",
-    "Panel(1)|SetPanelPosition({\"top\":0,\"left\":5,\"width\":45,\"height\":5});",
+    "Panel(1)|SetPanelPosition({\"top\":0,\"left\":38.34374707460426,\"width\":28.328130468129693,\"height\":3.24206838091024});",
     "Panel(2)|SetPanelPosition({\"top\":0,\"left\":0,\"width\":5,\"height\":5});",
-    "Panel(3)|SetPanelPosition({\"top\":0,\"left\":50,\"width\":50,\"height\":5});"
+    "Panel(3)|SetPanelPosition({\"top\":0,\"left\":66.6562449145321,\"width\":33.343755085467905,\"height\":1.427857163052307});",
+    "Panel(4)|SetPanelPosition({\"top\":0,\"left\":5.01562461733821,\"width\":33.39063008189163,\"height\":1.3069097485284449});"
   ]
 }
