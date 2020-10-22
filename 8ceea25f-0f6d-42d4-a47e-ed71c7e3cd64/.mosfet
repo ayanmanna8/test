@@ -21,6 +21,7 @@
     "if ( ( FrameHeaderExists ( frame \u003d [ FRAME971863 ] , column \u003d [ hostname ] ) ) , ( FRAME971863 | UnfilterFrame ( hostname ) ) , ( false ) ) ;",
     "ifError ( ( Frame ( frame \u003d [ FRAME971863 ] ) | Select ( DATA_COLLECTION_TIME , Average ( MEMORY_PERCENTAGE ) ) .as ( [ DATA_COLLECTION_TIME , Average_of_MEMORY_PERCENTAGE ] ) | Group ( DATA_COLLECTION_TIME ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Line\" , \"alignment\" : { \"label\" : [ \"DATA_COLLECTION_TIME\" ] , \"value\" : [ \"Average_of_MEMORY_PERCENTAGE\" ] } } } ) | Collect ( 2000 ) ) , ( true ) ) ;",
     "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 4 . 95884399547835 , \"left\" : 50 . 02232006557138 , \"width\" : 50 . 04464421831828 , \"height\" : 45 . 47958669114848 } ) ;",
-    "Panel(0)|SetPanelPosition({\"top\":4.95884399547835,\"left\":50.02232006557138,\"width\":50.04464421831828,\"height\":45.47958669114848});"
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 4 . 95884399547835 , \"left\" : 50 . 02232006557138 , \"width\" : 50 . 04464421831828 , \"height\" : 45 . 47958669114848 } ) ;",
+    "Panel(0)|SetPanelPosition({\"top\":5,\"left\":50.02232006557138,\"width\":49.97767993442862,\"height\":45.47958669114848});"
   ]
 }
