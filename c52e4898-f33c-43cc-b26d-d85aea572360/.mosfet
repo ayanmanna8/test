@@ -28,6 +28,7 @@
     "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"watermark\" : \"\" , \"backgroundColor\" : \"#FFFFFF\" } } } ) ;",
     "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools\" ) ;",
     "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 49 . 95128219835509 , \"left\" : 50 . 02232006557138 , \"width\" : 50 . 111608502207936 , \"height\" : 49 . 80682297259719 } ) ;",
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 49 . 95128219835509 , \"left\" : 50 . 02232006557138 , \"width\" : 49 . 977679934428615 , \"height\" : 49 . 80682297259719 } ) ;",
     "Panel(0)|SetPanelPosition({\"top\":49.95128219835509,\"left\":50.02232006557138,\"width\":49.977679934428615,\"height\":49.80682297259719});"
   ]
 }
