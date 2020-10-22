@@ -44,10 +44,23 @@
     "Panel ( 0 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"opacity\" : 100 , \"type\" : \"STANDARD\" , \"backgroundColor\" : \"#FFFFFF\" , \"zIndex\" : 1 } } ] ) ;",
     "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"watermark\" : \"\" , \"backgroundColor\" : \"#FFFFFF\" } } } ) ;",
     "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools\" ) ;",
-    "Panel(0)|SetPanelPosition({\"top\":4.95884399547835,\"left\":0,\"width\":50.111608502207936,\"height\":45.72148152019621});",
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 4 . 95884399547835 , \"left\" : 0 , \"width\" : 50 . 111608502207936 , \"height\" : 45 . 72148152019621 } ) ;",
+    "Panel ( 1 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 5 , \"width\" : 28 . 333333333333336 , \"height\" : 5 } ) ;",
+    "Panel ( 2 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 0 , \"width\" : 5 , \"height\" : 5 } ) ;",
+    "Panel ( 3 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 33 . 333333333333336 , \"width\" : 33 . 333333333333336 , \"height\" : 5 } ) ;",
+    "Panel ( 4 ) | SetPanelPosition ( { \"top\" : 0 , \"left\" : 66 . 66666666666667 , \"width\" : 33 . 333333333333336 , \"height\" : 5 } ) ;",
+    "ClosePanel ( 4 ) ;",
+    "AddPanel ( 5 ) ;",
+    "Panel ( 5 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;",
+    "Panel ( 5 ) | SetPanelView ( \"DashboardFilter\" , \"\u003cencode\u003e{\"autoRun\":true,\"frame\":\"FRAME856414\"}\u003c/encode\u003e\" ) ;",
+    "Panel ( 5 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"business_application\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;",
+    "Panel ( 1 ) | SetPanelLabel ( \"Hostname\" ) ;",
+    "Panel ( 3 ) | SetPanelLabel ( \"Operating System\" ) ;",
+    "Panel ( 5 ) | SetPanelLabel ( \"Business Application\" ) ;",
+    "Panel(0)|SetPanelPosition({\"top\":5,\"left\":0,\"width\":50.111608502207936,\"height\":45.72148152019621});",
     "Panel(1)|SetPanelPosition({\"top\":0,\"left\":5,\"width\":28.333333333333336,\"height\":5});",
     "Panel(2)|SetPanelPosition({\"top\":0,\"left\":0,\"width\":5,\"height\":5});",
     "Panel(3)|SetPanelPosition({\"top\":0,\"left\":33.333333333333336,\"width\":33.333333333333336,\"height\":5});",
-    "Panel(4)|SetPanelPosition({\"top\":0,\"left\":66.66666666666667,\"width\":33.333333333333336,\"height\":5});"
+    "Panel(5)|SetPanelPosition({\"top\":0,\"left\":66.66666666666667,\"width\":33.333333333333336,\"height\":5});"
   ]
 }
