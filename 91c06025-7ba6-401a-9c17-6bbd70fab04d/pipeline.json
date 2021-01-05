@@ -1,0 +1,1145 @@
+{
+  "components": {
+    "pipeline--1609836983668": {
+      "preview": "IMPORT_FRAME",
+      "icon": "http://localhost:5355/Monolith/api/engine/appImage?app\u003d3b3e4a3b-d382-4e98-9950-9b4e8b308c1c",
+      "description": "Query data from an app using a raw query (SQL, SPARQL, ETC.)",
+      "output": [
+        {
+          "output": 0,
+          "downstream": {
+            "parameter": "SMSS_FRAME",
+            "key": "pipeline--1609837206988"
+          },
+          "value": {
+            "joins": [],
+            "headers": [
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "ConnectionDirection",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__ConnectionDirection",
+                "alias": "ConnectionDirection",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Environment",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Environment",
+                "alias": "Environment",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Location",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Location",
+                "alias": "Location",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Protocol",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Protocol",
+                "alias": "Protocol",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "RemotePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__RemotePort",
+                "alias": "RemotePort",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Source",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Source",
+                "alias": "Source",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourceBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__SourceBA",
+                "alias": "SourceBA",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourcePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__SourcePort",
+                "alias": "SourcePort",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Subnet",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Subnet",
+                "alias": "Subnet",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Target",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Target",
+                "alias": "Target",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "TargetBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__TargetBA",
+                "alias": "TargetBA",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              }
+            ],
+            "name": "FRAME296108",
+            "type": "GRID"
+          },
+          "frame": true
+        }
+      ],
+      "input": [],
+      "componentToPixelMap": "Database( database\u003d[\"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\"] )|Query(\"SELECT%20server_ip%20as%20\u0027Source\u0027%2Cremote_ip%20as%20\u0027Target\u0027%2CconnectionDirection%20as%20\u0027ConnectionDirection\u0027%2Cport_used%20as%20\u0027SourcePort\u0027%2Cremote_port%20as%20\u0027RemotePort\u0027%2Cbusiness_application%20as%20\u0027SourceBA\u0027%2C%5Cnremote_business_application%20as%20\u0027TargetBA\u0027%2Cprotocol%20as%20\u0027Protocol\u0027%2Csubnet%20as%20\u0027Subnet\u0027%2Cenvironment%20as\u0027Environment\u0027%2Clocation%20as%20\u0027Location\u0027%20FROM%20atadata_db.affinityview%20where%20connectionDirection%3D%20%5C%22Outbound%5C%22%20or%20connectionDirection%3D%5C%22Internal%5C%22%5Cnunion%5CnSELECT%20remote_ip%20as%20\u0027Source\u0027%2Cserver_ip%20as%20\u0027Target\u0027%2CconnectionDirection%20as%20\u0027ConnectionDirection\u0027%2Cremote_port%20as%20\u0027SourcePort\u0027%2Cport_used%20as%20\u0027RemotePort\u0027%2Cremote_business_application%20as%20\u0027SourceBA\u0027%2C%5Cnbusiness_application%20as%20\u0027TargetBA\u0027%2Cprotocol%20as%20\u0027Protocol\u0027%2Csubnet%20as%20\u0027Subnet\u0027%2Cenvironment%20as\u0027Environment\u0027%2Clocation%20as%20\u0027Location\u0027%20FROM%20atadata_db.affinityview%20where%20connectionDirection%3D%20%5C%22Inbound%5C%22\") | Import(frame\u003d[CreateFrame(frameType\u003d[GRID], override\u003d[true]).as([\"FRAME296108\"])]);FRAME296108 | Convert(frameType\u003d[R]);",
+      "options": {},
+      "name": "Atadata2",
+      "id": "pipeline-query",
+      "position": {
+        "top": 24,
+        "left": 24
+      },
+      "state": "executed",
+      "pixel": "\u003cQUERY_STRUCT\u003e | Import(frame\u003d[\u003cIMPORT_FRAME\u003e]);FRAME296108 | Convert(frameType\u003d[R]);",
+      "parameters": {
+        "QUERY_STRUCT": {
+          "upstream": {},
+          "parameter": "QUERY_STRUCT",
+          "type": "QUERY_STRUCT",
+          "value": {
+            "query": "SELECT server_ip as \u0027Source\u0027,remote_ip as \u0027Target\u0027,connectionDirection as \u0027ConnectionDirection\u0027,port_used as \u0027SourcePort\u0027,remote_port as \u0027RemotePort\u0027,business_application as \u0027SourceBA\u0027,\\nremote_business_application as \u0027TargetBA\u0027,protocol as \u0027Protocol\u0027,subnet as \u0027Subnet\u0027,environment as\u0027Environment\u0027,location as \u0027Location\u0027 FROM atadata_db.affinityview where connectionDirection\u003d \"Outbound\" or connectionDirection\u003d\"Internal\"\\nunion\\nSELECT remote_ip as \u0027Source\u0027,server_ip as \u0027Target\u0027,connectionDirection as \u0027ConnectionDirection\u0027,remote_port as \u0027SourcePort\u0027,port_used as \u0027RemotePort\u0027,remote_business_application as \u0027SourceBA\u0027,\\nbusiness_application as \u0027TargetBA\u0027,protocol as \u0027Protocol\u0027,subnet as \u0027Subnet\u0027,environment as\u0027Environment\u0027,location as \u0027Location\u0027 FROM atadata_db.affinityview where connectionDirection\u003d \"Inbound\"",
+            "limit": -1,
+            "qsType": "RAW_ENGINE_QUERY",
+            "engineName": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
+          },
+          "required": true,
+          "frame": true
+        },
+        "SELECTED_APP": {
+          "upstream": {},
+          "parameter": "SELECTED_APP",
+          "type": "",
+          "value": {
+            "image": "http://localhost:5355/Monolith/api/engine/appImage?app\u003d3b3e4a3b-d382-4e98-9950-9b4e8b308c1c",
+            "display": "Atadata2",
+            "value": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c"
+          },
+          "required": false,
+          "frame": true
+        },
+        "IMPORT_FRAME": {
+          "upstream": {},
+          "parameter": "IMPORT_FRAME",
+          "type": "CREATE_FRAME",
+          "value": {
+            "name": "FRAME296108",
+            "override": true,
+            "type": "GRID"
+          },
+          "required": true,
+          "frame": true
+        }
+      },
+      "key": "pipeline--1609836983668",
+      "hasDownstream": true
+    },
+    "pipeline--1609837305675": {
+      "preview": "SMSS_FRAME",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgOTAgOTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDkwIDkwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+PHBhdGggZmlsbD0iIzE0M0Y1QiIgZD0iTTc0LjYsMTMuN0g0Ny40Yy0xLjksMC0zLjQsMS41LTMuNCwzLjR2MjcuNEgxNi41Yy0xLjksMC0zLjQsMS41LTMuNCwzLjR2MjcuMmMwLDEuOSwxLjUsMy40LDMuNCwzLjRoNDEgICAgYzEuOSwwLDMuNC0xLjUsMy40LTMuNFY2MS42aDEzLjZjMS45LDAsMy40LTEuNSwzLjQtMy40di00MUM3OCwxNS4zLDc2LjUsMTMuNyw3NC42LDEzLjd6IE01NS4zLDcyLjlIMTguOFY1MC4zaDM2LjVWNzIuOXogICAgIE03Mi4zLDU1LjlINjFWNDhjMC0xLjktMS41LTMuNC0zLjQtMy40aC03LjlWMTkuNGgyMi43VjU1Ljl6IE0zMiwyOS44aC02LjZjMC01LjksNC44LTEwLjcsMTAuNy0xMC43di01LjQgICAgYy04LjksMC0xNi4xLDcuMi0xNi4xLDE2LjFoLTYuOWw5LjUsOS41TDMyLDI5Ljh6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4\u003d",
+      "description": "Split column based on a separator",
+      "required": {
+        "R": [
+          "data.table",
+          "splitstackshape"
+        ],
+        "Frame": [
+          "R",
+          "PY"
+        ]
+      },
+      "output": [
+        {
+          "output": 0,
+          "downstream": {},
+          "value": {
+            "joins": [],
+            "headers": [
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "ConnectionDirection",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__ConnectionDirection",
+                "alias": "ConnectionDirection",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Environment",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Environment",
+                "alias": "Environment",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Location",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Location",
+                "alias": "Location",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Protocol",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Protocol",
+                "alias": "Protocol",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "RemotePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__RemotePort",
+                "alias": "RemotePort",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Source",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Source",
+                "alias": "Source",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourceBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__SourceBA",
+                "alias": "SourceBA",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourcePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__SourcePort",
+                "alias": "SourcePort",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Subnet",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Subnet",
+                "alias": "Subnet",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Target",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Target",
+                "alias": "Target",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "TargetBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__TargetBA",
+                "alias": "TargetBA",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              }
+            ],
+            "name": "FRAME296108",
+            "type": "R"
+          },
+          "frame": true
+        }
+      ],
+      "input": [
+        "SMSS_FRAME"
+      ],
+      "componentToPixelMap": "FRAME296108 | SplitUnpivot(columns \u003d [\"RemotePort\"], delimiter \u003d [\";\"]);",
+      "options": {
+        "json": [
+          {
+            "listeners": [
+              "updateTask",
+              "updateFrame",
+              "selectedData"
+            ],
+            "query": "\u003cSMSS_FRAME.name\u003e | SplitUnpivot(columns \u003d [\u003csplitCols\u003e], delimiter \u003d [\"\u003cseparator\u003e\"]);",
+            "description": "Split values within a column based on a separator. This will unpivot the data to combine split values into their existing column.",
+            "label": "Split Unpivot",
+            "params": [
+              {
+                "view": {
+                  "displayType": "checklist",
+                  "attributes": {
+                    "display": "alias",
+                    "multiple": true,
+                    "quickselect": true,
+                    "value": "alias",
+                    "searchable": true
+                  },
+                  "label": "Choose column to split:"
+                },
+                "model": {
+                  "query": "\u003cSMSS_FRAME.name\u003e | FrameHeaders();"
+                },
+                "paramName": "splitCols",
+                "useSelectedValues": true
+              },
+              {
+                "view": {
+                  "displayType": "freetext",
+                  "label": "Enter a string separator:"
+                },
+                "paramName": "separator"
+              },
+              {
+                "paramName": "SMSS_FRAME"
+              }
+            ]
+          }
+        ]
+      },
+      "name": "Split Unpivot",
+      "id": "clean-split-unpivot",
+      "position": {
+        "top": 310,
+        "left": 744
+      },
+      "state": "executed",
+      "pixel": "\u003cSMSS_FRAME.name\u003e | SplitUnpivot(columns \u003d [\u003csplitCols\u003e], delimiter \u003d [\"\u003cseparator\u003e\"]);",
+      "parameters": {
+        "SMSS_FRAME": {
+          "upstream": {
+            "output": 0,
+            "key": "pipeline--1609837206988"
+          },
+          "parameter": "SMSS_FRAME",
+          "type": "",
+          "value": {
+            "joins": [],
+            "headers": [
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "ConnectionDirection",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__ConnectionDirection",
+                "alias": "ConnectionDirection",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Environment",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Environment",
+                "alias": "Environment",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Location",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Location",
+                "alias": "Location",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Protocol",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Protocol",
+                "alias": "Protocol",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "RemotePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__RemotePort",
+                "alias": "RemotePort",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Source",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Source",
+                "alias": "Source",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourceBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__SourceBA",
+                "alias": "SourceBA",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourcePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__SourcePort",
+                "alias": "SourcePort",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Subnet",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Subnet",
+                "alias": "Subnet",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Target",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Target",
+                "alias": "Target",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "TargetBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__TargetBA",
+                "alias": "TargetBA",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              }
+            ],
+            "name": "FRAME296108",
+            "type": "R"
+          },
+          "required": true,
+          "frame": true
+        },
+        "separator": {
+          "upstream": {},
+          "type": "PIXEL",
+          "value": ";",
+          "key": "pipeline--1609837305675",
+          "required": true
+        },
+        "splitCols": {
+          "upstream": {},
+          "type": "PIXEL",
+          "value": "\"RemotePort\"",
+          "key": "pipeline--1609837305675",
+          "required": true
+        }
+      },
+      "key": "pipeline--1609837305675"
+    },
+    "pipeline--1609837206988": {
+      "preview": "SMSS_FRAME",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgOTAgOTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDkwIDkwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+PHBhdGggZmlsbD0iIzE0M0Y1QiIgZD0iTTc0LjYsMTMuN0g0Ny40Yy0xLjksMC0zLjQsMS41LTMuNCwzLjR2MjcuNEgxNi41Yy0xLjksMC0zLjQsMS41LTMuNCwzLjR2MjcuMmMwLDEuOSwxLjUsMy40LDMuNCwzLjRoNDEgICAgYzEuOSwwLDMuNC0xLjUsMy40LTMuNFY2MS42aDEzLjZjMS45LDAsMy40LTEuNSwzLjQtMy40di00MUM3OCwxNS4zLDc2LjUsMTMuNyw3NC42LDEzLjd6IE01NS4zLDcyLjlIMTguOFY1MC4zaDM2LjVWNzIuOXogICAgIE03Mi4zLDU1LjlINjFWNDhjMC0xLjktMS41LTMuNC0zLjQtMy40aC03LjlWMTkuNGgyMi43VjU1Ljl6IE0zMiwyOS44aC02LjZjMC01LjksNC44LTEwLjcsMTAuNy0xMC43di01LjQgICAgYy04LjksMC0xNi4xLDcuMi0xNi4xLDE2LjFoLTYuOWw5LjUsOS41TDMyLDI5Ljh6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4\u003d",
+      "description": "Split column based on a separator",
+      "required": {
+        "R": [
+          "data.table",
+          "splitstackshape"
+        ],
+        "Frame": [
+          "R",
+          "PY"
+        ]
+      },
+      "output": [
+        {
+          "output": 0,
+          "downstream": {
+            "parameter": "SMSS_FRAME",
+            "key": "pipeline--1609837305675"
+          },
+          "value": {
+            "joins": [],
+            "headers": [
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "ConnectionDirection",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__ConnectionDirection",
+                "alias": "ConnectionDirection",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Environment",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Environment",
+                "alias": "Environment",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Location",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Location",
+                "alias": "Location",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Protocol",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Protocol",
+                "alias": "Protocol",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "RemotePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__RemotePort",
+                "alias": "RemotePort",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Source",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Source",
+                "alias": "Source",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourceBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__SourceBA",
+                "alias": "SourceBA",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourcePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__SourcePort",
+                "alias": "SourcePort",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Subnet",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Subnet",
+                "alias": "Subnet",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Target",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Target",
+                "alias": "Target",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "TargetBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__TargetBA",
+                "alias": "TargetBA",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              }
+            ],
+            "name": "FRAME296108",
+            "type": "R"
+          },
+          "frame": true
+        }
+      ],
+      "input": [
+        "SMSS_FRAME"
+      ],
+      "componentToPixelMap": "FRAME296108 | SplitUnpivot(columns \u003d [\"SourcePort\"], delimiter \u003d [\";\"]);",
+      "options": {
+        "json": [
+          {
+            "listeners": [
+              "updateTask",
+              "updateFrame",
+              "selectedData"
+            ],
+            "query": "\u003cSMSS_FRAME.name\u003e | SplitUnpivot(columns \u003d [\u003csplitCols\u003e], delimiter \u003d [\"\u003cseparator\u003e\"]);",
+            "description": "Split values within a column based on a separator. This will unpivot the data to combine split values into their existing column.",
+            "label": "Split Unpivot",
+            "params": [
+              {
+                "view": {
+                  "displayType": "checklist",
+                  "attributes": {
+                    "display": "alias",
+                    "multiple": true,
+                    "quickselect": true,
+                    "value": "alias",
+                    "searchable": true
+                  },
+                  "label": "Choose column to split:"
+                },
+                "model": {
+                  "query": "\u003cSMSS_FRAME.name\u003e | FrameHeaders();"
+                },
+                "paramName": "splitCols",
+                "useSelectedValues": true
+              },
+              {
+                "view": {
+                  "displayType": "freetext",
+                  "label": "Enter a string separator:"
+                },
+                "paramName": "separator"
+              },
+              {
+                "paramName": "SMSS_FRAME"
+              }
+            ]
+          }
+        ]
+      },
+      "name": "Split Unpivot",
+      "id": "clean-split-unpivot",
+      "position": {
+        "top": 251,
+        "left": 381
+      },
+      "state": "executed",
+      "pixel": "\u003cSMSS_FRAME.name\u003e | SplitUnpivot(columns \u003d [\u003csplitCols\u003e], delimiter \u003d [\"\u003cseparator\u003e\"]);",
+      "parameters": {
+        "SMSS_FRAME": {
+          "upstream": {
+            "output": 0,
+            "key": "pipeline--1609836983668"
+          },
+          "parameter": "SMSS_FRAME",
+          "type": "",
+          "value": {
+            "joins": [],
+            "headers": [
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "ConnectionDirection",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__ConnectionDirection",
+                "alias": "ConnectionDirection",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Environment",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Environment",
+                "alias": "Environment",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Location",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Location",
+                "alias": "Location",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Protocol",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Protocol",
+                "alias": "Protocol",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "RemotePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__RemotePort",
+                "alias": "RemotePort",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Source",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Source",
+                "alias": "Source",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourceBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__SourceBA",
+                "alias": "SourceBA",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourcePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__SourcePort",
+                "alias": "SourcePort",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Subnet",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Subnet",
+                "alias": "Subnet",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Target",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__Target",
+                "alias": "Target",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "TargetBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "FRAME296108__TargetBA",
+                "alias": "TargetBA",
+                "isFiltered": false,
+                "parentNode": "FRAME296108"
+              }
+            ],
+            "name": "FRAME296108",
+            "type": "GRID"
+          },
+          "required": true,
+          "frame": true
+        },
+        "separator": {
+          "upstream": {},
+          "type": "PIXEL",
+          "value": ";",
+          "key": "pipeline--1609837206988",
+          "required": true
+        },
+        "splitCols": {
+          "upstream": {},
+          "type": "PIXEL",
+          "value": "\"SourcePort\"",
+          "key": "pipeline--1609837206988",
+          "required": true
+        }
+      },
+      "key": "pipeline--1609837206988",
+      "hasDownstream": true
+    }
+  }
+}
