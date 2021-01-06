@@ -2,7 +2,7 @@
   "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c",
   "rdbmsId": "91c06025-7ba6-401a-9c17-6bbd70fab04d",
   "insightName": "Demo Affinity Graph",
-  "layout": "Grid",
+  "layout": "Graph",
   "hidden": false,
   "recipe": [
     "AddPanel ( 0 ) ;",
