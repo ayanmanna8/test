@@ -256,6 +256,8 @@
     "FRAME296108 | UnfilterFrame ( ) ;",
     "FRAME296108 | UnfilterFrame ( ) ;",
     "FRAME296108 | UnfilterFrame ( ) ;",
-    "FRAME296108 | UnfilterFrame ( ) ;"
+    "FRAME296108 | UnfilterFrame ( ) ;",
+    "Database ( database \u003d [ \"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\" ] ) | Query ( \"\u003cencode\u003eselect distinct server_ip as \u0027Source\u0027 from affinityview where connectionDirection !\u003d \"Unknown\"   union select distinct remote_ip  from affinityview where connectionDirection!\u003d\"Unknown\"\u003c/encode\u003e\" ) | Import ( frame \u003d [ CreateFrame ( frameType \u003d [ R ] , override \u003d [ true ] ) .as ( [ \"ServerListFrame\" ] ) ] ) ;",
+    "Frame ( frame \u003d [ ServerListFrame ] ) | Select ( Source ) .as ( [ Source ] ) | With ( Panel ( 15 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"15\" : { \"layout\" : \"Grid\" , \"alignment\" : { \"label\" : [ \"Source\" ] } } } ) | Collect ( 2000 ) ;"
   ]
 }
