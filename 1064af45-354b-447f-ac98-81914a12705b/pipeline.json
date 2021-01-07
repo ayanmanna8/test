@@ -1,0 +1,269 @@
+{
+  "components": {
+    "pipeline--1610031328323": {
+      "preview": "CODE",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9IiMxNDNGNUIiIGQ9Ik01NTMgMTM5OWwtNTAgNTBxLTEwIDEwLTIzIDEwdC0yMy0xMGwtNDY2LTQ2NnEtMTAtMTAtMTAtMjN0MTAtMjNsNDY2LTQ2NnExMC0xMCAyMy0xMHQyMyAxMGw1MCA1MHExMCAxMCAxMCAyM3QtMTAgMjNsLTM5MyAzOTMgMzkzIDM5M3ExMCAxMCAxMCAyM3QtMTAgMjN6bTU5MS0xMDY3bC0zNzMgMTI5MXEtNCAxMy0xNS41IDE5LjV0LTIzLjUgMi41bC02Mi0xN3EtMTMtNC0xOS41LTE1LjV0LTIuNS0yNC41bDM3My0xMjkxcTQtMTMgMTUuNS0xOS41dDIzLjUtMi41bDYyIDE3cTEzIDQgMTkuNSAxNS41dDIuNSAyNC41em02NTcgNjUxbC00NjYgNDY2cS0xMCAxMC0yMyAxMHQtMjMtMTBsLTUwLTUwcS0xMC0xMC0xMC0yM3QxMC0yM2wzOTMtMzkzLTM5My0zOTNxLTEwLTEwLTEwLTIzdDEwLTIzbDUwLTUwcTEwLTEwIDIzLTEwdDIzIDEwbDQ2NiA0NjZxMTAgMTAgMTAgMjN0LTEwIDIzeiIvPjwvc3ZnPg\u003d\u003d",
+      "description": "Run custom Pixel, Python or R in the Pipeline",
+      "output": [
+        {
+          "output": 0,
+          "downstream": {},
+          "value": {
+            "joins": [],
+            "headers": [
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "ConnectionDirection",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__ConnectionDirection",
+                "alias": "ConnectionDirection",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Environment",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__Environment",
+                "alias": "Environment",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Location",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__Location",
+                "alias": "Location",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Protocol",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__Protocol",
+                "alias": "Protocol",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "RemotePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__RemotePort",
+                "alias": "RemotePort",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Source",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__Source",
+                "alias": "Source",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourceBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__SourceBA",
+                "alias": "SourceBA",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "SourcePort",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__SourcePort",
+                "alias": "SourcePort",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Subnet",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__Subnet",
+                "alias": "Subnet",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "Target",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__Target",
+                "alias": "Target",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              },
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "TargetBA",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "AFFINITYGRAPHFRAME__TargetBA",
+                "alias": "TargetBA",
+                "isFiltered": false,
+                "parentNode": "AFFINITYGRAPHFRAME"
+              }
+            ],
+            "name": "AFFINITYGRAPHFRAME",
+            "type": "R"
+          },
+          "frame": true
+        },
+        {
+          "output": 1,
+          "downstream": {},
+          "value": {
+            "joins": [],
+            "headers": [
+              {
+                "qsName": {
+                  "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c": [
+                    "CUSTOM_ENGINE_QUERY"
+                  ]
+                },
+                "isDerived": true,
+                "displayName": "IPs",
+                "isPrim": "false",
+                "dataType": "STRING",
+                "header": "ServerListFrame__IPs",
+                "alias": "IPs",
+                "isFiltered": false,
+                "parentNode": "ServerListFrame"
+              }
+            ],
+            "name": "ServerListFrame",
+            "type": "R"
+          },
+          "frame": true
+        }
+      ],
+      "input": [],
+      "componentToPixelMap": "AddPanel ( 0 ) ;\\r\\nPanel ( 0 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"opacity\" : 100 } } ] ) ;\\r\\nPanel ( 0 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"if((IsEmpty(%3CSelectedValues%3E))%2C(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%2C%20(%3CFrame%3E%20%7C%20SetFrameFilter(%3CSelectedColumn%3E%3D%3D%3CSelectedValues%3E)))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;\\r\\nPanel ( 0 ) | RetrievePanelEvents ( ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22echarts%5C%22%7D\" ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"pipeline\" , \"%7B%5C%22app_id%5C%22%3A%5C%223b3e4a3b-d382-4e98-9950-9b4e8b308c1c%5C%22%7D\" ) ;\\r\\nAddPanel ( 0 ) ;\\r\\nPanel ( 0 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"opacity\" : 100 } } ] ) ;\\r\\nPanel ( 0 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"if((IsEmpty(%3CSelectedValues%3E))%2C(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%2C%20(%3CFrame%3E%20%7C%20SetFrameFilter(%3CSelectedColumn%3E%3D%3D%3CSelectedValues%3E)))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;\\r\\nPanel ( 0 ) | RetrievePanelEvents ( ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22echarts%5C%22%7D\" ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"pipeline\" , \"%7B%5C%22app_id%5C%22%3A%5C%223b3e4a3b-d382-4e98-9950-9b4e8b308c1c%5C%22%7D\" ) ;\\r\\nDatabase ( database \u003d [ \"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\" ] ) | Query ( \"SELECT%20server_ip%20as%20\u0027Source\u0027%2Cremote_ip%20as%20\u0027Target\u0027%2CconnectionDirection%20as%20\u0027ConnectionDirection\u0027%2Cport_used%20as%20\u0027SourcePort\u0027%2Cremote_port%20as%20\u0027RemotePort\u0027%2Cbusiness_application%20as%20\u0027SourceBA\u0027%2C%5Cr%5Cnremote_business_application%20as%20\u0027TargetBA\u0027%2Cprotocol%20as%20\u0027Protocol\u0027%2Csubnet%20as%20\u0027Subnet\u0027%2Cenvironment%20as\u0027Environment\u0027%2Clocation%20as%20\u0027Location\u0027%20FROM%20atadata_db.affinityview%20where%20connectionDirection%3D%20%5C%22Outbound%5C%22%20or%20connectionDirection%3D%5C%22Internal%5C%22%5Cr%5Cnunion%5Cr%5CnSELECT%20remote_ip%20as%20\u0027Source\u0027%2Cserver_ip%20as%20\u0027Target\u0027%2CconnectionDirection%20as%20\u0027ConnectionDirection\u0027%2Cremote_port%20as%20\u0027SourcePort\u0027%2Cport_used%20as%20\u0027RemotePort\u0027%2Cremote_business_application%20as%20\u0027SourceBA\u0027%2C%5Cr%5Cnbusiness_application%20as%20\u0027TargetBA\u0027%2Cprotocol%20as%20\u0027Protocol\u0027%2Csubnet%20as%20\u0027Subnet\u0027%2Cenvironment%20as\u0027Environment\u0027%2Clocation%20as%20\u0027Location\u0027%20FROM%20atadata_db.affinityview%20where%20connectionDirection%3D%20%5C%22Inbound%5C%22\" ) | Import ( frame \u003d [ CreateFrame ( frameType \u003d [ R ] , override \u003d [ true ] ) .as ( [ \"AFFINITYGRAPHFRAME\" ] ) ] ) ;\\r\\nAFFINITYGRAPHFRAME | SplitUnpivot ( columns \u003d [ \"SourcePort\" ] , delimiter \u003d [ \";\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | SplitUnpivot ( columns \u003d [ \"RemotePort\" ] , delimiter \u003d [ \";\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"SourceBA\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( SourceBA , \"Unknown\" , Filter ( SourceBA \u003d\u003d \"null\" ) ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"TargetBA\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( TargetBA , \"Unknown\" , Filter ( TargetBA \u003d\u003d \"null\" ) ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"Subnet\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( Subnet , \"Unknown\" , Filter ( Subnet \u003d\u003d \"null\" ) ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"Location\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( Environment , \"Unknown\" , Filter ( Environment \u003d\u003d \"null\" ) ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22standard%5C%22%7D\" ) ;\\r\\nFrame ( frame \u003d [ AFFINITYGRAPHFRAME ] ) | Select ( Source , Target ) .as ( [ source , target ] ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027graph\u0027 ] , options \u003d [ { \"connections\" : \"source.target;\" , \"alias\" : \"source.source;target.source\" , \"color\" : \"FF0000\" } ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Graph\" , \"alignment\" : { \"start\" : [ \"source\" ] , \"end\" : [ \"target\" ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ;\\r\\nPanel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.displayValues\" ) ;\\r\\nAddPanel ( 1 ) ;\\r\\nPanel ( 1 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 1 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 1 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Source\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 2 ) ;\\r\\nPanel ( 2 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"subType\" : \"UNFILTER\" , \"opacity\" : 100 , \"labelOverride\" : true , \"panelLabel\" : \"Unfilter Sheet\" , \"zIndex\" : 4 } } ] ) ;\\r\\nPanel ( 2 ) | SetPanelView ( \"unfilter-sheet\" ) ;\\r\\nAddPanel ( 3 ) ;\\r\\nPanel ( 3 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 3 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 3 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Target\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 4 ) ;\\r\\nPanel ( 4 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 4 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 4 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"SourcePort\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 5 ) ;\\r\\nPanel ( 5 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 5 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 5 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"RemotePort\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 6 ) ;\\r\\nPanel ( 6 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 6 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 6 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Protocol\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 7 ) ;\\r\\nPanel ( 7 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 7 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 7 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Location\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 8 ) ;\\r\\nPanel ( 8 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 8 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 8 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"SourceBA\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 9 ) ;\\r\\nPanel ( 9 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 9 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 9 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"TargetBA\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 10 ) ;\\r\\nPanel ( 10 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 10 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 10 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Subnet\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 11 ) ;\\r\\nPanel ( 11 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 11 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 11 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Environment\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nDatabase ( database \u003d [ \"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\" ] ) | Query ( \"select%20distinct%20server_ip%20as%20\u0027IPs\u0027%20from%20affinityview%20where%20connectionDirection%20!%3D%20%5C%22Unknown%5C%22\" ) | Import ( frame \u003d [ CreateFrame ( frameType \u003d [ R ] , override \u003d [ true ] ) .as ( [ \"ServerListFrame\" ] ) ] ) ;\\r\\nAddPanel ( 15 ) ;\\r\\nPanel ( 15 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"opacity\" : 100 } } ] ) ;\\r\\nPanel ( 15 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"if((IsEmpty(%3CSelectedValues%3E))%2C(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%2C%20(%3CFrame%3E%20%7C%20SetFrameFilter(%3CSelectedColumn%3E%3D%3D%3CSelectedValues%3E)))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;\\r\\nPanel ( 15 ) | RetrievePanelEvents ( ) ;\\r\\nPanel ( 15 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22echarts%5C%22%7D\" ) ;\\r\\nFrame ( frame \u003d [ ServerListFrame ] ) | Select ( IPs ) .as ( [ IPs ] ) | With ( Panel ( 15 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"15\" : { \"layout\" : \"Grid\" , \"alignment\" : { \"label\" : [ \"Source\" ] } } } ) | Collect ( 2000 ) ;;",
+      "options": {},
+      "name": "Code Block",
+      "id": "pipeline-codeblock-source",
+      "position": {
+        "top": 24,
+        "left": 24
+      },
+      "state": "executed",
+      "pixel": "\u003cCODE\u003e;",
+      "parameters": {
+        "LANGUAGE": {
+          "upstream": {},
+          "parameter": "LANGUAGE",
+          "type": "",
+          "required": false,
+          "frame": true
+        },
+        "CODE": {
+          "upstream": {},
+          "parameter": "CODE",
+          "type": "",
+          "value": "AddPanel ( 0 ) ;\\r\\nPanel ( 0 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"opacity\" : 100 } } ] ) ;\\r\\nPanel ( 0 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"if((IsEmpty(%3CSelectedValues%3E))%2C(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%2C%20(%3CFrame%3E%20%7C%20SetFrameFilter(%3CSelectedColumn%3E%3D%3D%3CSelectedValues%3E)))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;\\r\\nPanel ( 0 ) | RetrievePanelEvents ( ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22echarts%5C%22%7D\" ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"pipeline\" , \"%7B%5C%22app_id%5C%22%3A%5C%223b3e4a3b-d382-4e98-9950-9b4e8b308c1c%5C%22%7D\" ) ;\\r\\nAddPanel ( 0 ) ;\\r\\nPanel ( 0 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"opacity\" : 100 } } ] ) ;\\r\\nPanel ( 0 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"if((IsEmpty(%3CSelectedValues%3E))%2C(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%2C%20(%3CFrame%3E%20%7C%20SetFrameFilter(%3CSelectedColumn%3E%3D%3D%3CSelectedValues%3E)))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;\\r\\nPanel ( 0 ) | RetrievePanelEvents ( ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22echarts%5C%22%7D\" ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"pipeline\" , \"%7B%5C%22app_id%5C%22%3A%5C%223b3e4a3b-d382-4e98-9950-9b4e8b308c1c%5C%22%7D\" ) ;\\r\\nDatabase ( database \u003d [ \"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\" ] ) | Query ( \"SELECT%20server_ip%20as%20\u0027Source\u0027%2Cremote_ip%20as%20\u0027Target\u0027%2CconnectionDirection%20as%20\u0027ConnectionDirection\u0027%2Cport_used%20as%20\u0027SourcePort\u0027%2Cremote_port%20as%20\u0027RemotePort\u0027%2Cbusiness_application%20as%20\u0027SourceBA\u0027%2C%5Cr%5Cnremote_business_application%20as%20\u0027TargetBA\u0027%2Cprotocol%20as%20\u0027Protocol\u0027%2Csubnet%20as%20\u0027Subnet\u0027%2Cenvironment%20as\u0027Environment\u0027%2Clocation%20as%20\u0027Location\u0027%20FROM%20atadata_db.affinityview%20where%20connectionDirection%3D%20%5C%22Outbound%5C%22%20or%20connectionDirection%3D%5C%22Internal%5C%22%5Cr%5Cnunion%5Cr%5CnSELECT%20remote_ip%20as%20\u0027Source\u0027%2Cserver_ip%20as%20\u0027Target\u0027%2CconnectionDirection%20as%20\u0027ConnectionDirection\u0027%2Cremote_port%20as%20\u0027SourcePort\u0027%2Cport_used%20as%20\u0027RemotePort\u0027%2Cremote_business_application%20as%20\u0027SourceBA\u0027%2C%5Cr%5Cnbusiness_application%20as%20\u0027TargetBA\u0027%2Cprotocol%20as%20\u0027Protocol\u0027%2Csubnet%20as%20\u0027Subnet\u0027%2Cenvironment%20as\u0027Environment\u0027%2Clocation%20as%20\u0027Location\u0027%20FROM%20atadata_db.affinityview%20where%20connectionDirection%3D%20%5C%22Inbound%5C%22\" ) | Import ( frame \u003d [ CreateFrame ( frameType \u003d [ R ] , override \u003d [ true ] ) .as ( [ \"AFFINITYGRAPHFRAME\" ] ) ] ) ;\\r\\nAFFINITYGRAPHFRAME | SplitUnpivot ( columns \u003d [ \"SourcePort\" ] , delimiter \u003d [ \";\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | SplitUnpivot ( columns \u003d [ \"RemotePort\" ] , delimiter \u003d [ \";\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"SourceBA\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( SourceBA , \"Unknown\" , Filter ( SourceBA \u003d\u003d \"null\" ) ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"TargetBA\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( TargetBA , \"Unknown\" , Filter ( TargetBA \u003d\u003d \"null\" ) ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"Subnet\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( Subnet , \"Unknown\" , Filter ( Subnet \u003d\u003d \"null\" ) ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"Location\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( Environment , \"Unknown\" , Filter ( Environment \u003d\u003d \"null\" ) ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22standard%5C%22%7D\" ) ;\\r\\nFrame ( frame \u003d [ AFFINITYGRAPHFRAME ] ) | Select ( Source , Target ) .as ( [ source , target ] ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027graph\u0027 ] , options \u003d [ { \"connections\" : \"source.target;\" , \"alias\" : \"source.source;target.source\" , \"color\" : \"FF0000\" } ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Graph\" , \"alignment\" : { \"start\" : [ \"source\" ] , \"end\" : [ \"target\" ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ;\\r\\nPanel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.displayValues\" ) ;\\r\\nAddPanel ( 1 ) ;\\r\\nPanel ( 1 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 1 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 1 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Source\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 2 ) ;\\r\\nPanel ( 2 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"subType\" : \"UNFILTER\" , \"opacity\" : 100 , \"labelOverride\" : true , \"panelLabel\" : \"Unfilter Sheet\" , \"zIndex\" : 4 } } ] ) ;\\r\\nPanel ( 2 ) | SetPanelView ( \"unfilter-sheet\" ) ;\\r\\nAddPanel ( 3 ) ;\\r\\nPanel ( 3 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 3 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 3 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Target\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 4 ) ;\\r\\nPanel ( 4 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 4 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 4 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"SourcePort\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 5 ) ;\\r\\nPanel ( 5 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 5 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 5 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"RemotePort\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 6 ) ;\\r\\nPanel ( 6 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 6 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 6 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Protocol\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 7 ) ;\\r\\nPanel ( 7 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 7 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 7 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Location\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 8 ) ;\\r\\nPanel ( 8 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 8 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 8 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"SourceBA\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 9 ) ;\\r\\nPanel ( 9 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 9 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 9 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"TargetBA\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 10 ) ;\\r\\nPanel ( 10 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 10 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 10 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Subnet\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 11 ) ;\\r\\nPanel ( 11 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 11 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 11 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Environment\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nDatabase ( database \u003d [ \"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\" ] ) | Query ( \"select%20distinct%20server_ip%20as%20\u0027IPs\u0027%20from%20affinityview%20where%20connectionDirection%20!%3D%20%5C%22Unknown%5C%22\" ) | Import ( frame \u003d [ CreateFrame ( frameType \u003d [ R ] , override \u003d [ true ] ) .as ( [ \"ServerListFrame\" ] ) ] ) ;\\r\\nAddPanel ( 15 ) ;\\r\\nPanel ( 15 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"opacity\" : 100 } } ] ) ;\\r\\nPanel ( 15 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"if((IsEmpty(%3CSelectedValues%3E))%2C(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%2C%20(%3CFrame%3E%20%7C%20SetFrameFilter(%3CSelectedColumn%3E%3D%3D%3CSelectedValues%3E)))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;\\r\\nPanel ( 15 ) | RetrievePanelEvents ( ) ;\\r\\nPanel ( 15 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22echarts%5C%22%7D\" ) ;\\r\\nFrame ( frame \u003d [ ServerListFrame ] ) | Select ( IPs ) .as ( [ IPs ] ) | With ( Panel ( 15 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"15\" : { \"layout\" : \"Grid\" , \"alignment\" : { \"label\" : [ \"Source\" ] } } } ) | Collect ( 2000 ) ;",
+          "required": true,
+          "frame": true
+        },
+        "FILES": {
+          "upstream": {},
+          "parameter": "FILES",
+          "type": "",
+          "value": {
+            "options": [
+              {
+                "date": "",
+                "ext": "pixel",
+                "path": "",
+                "new": true,
+                "split": [],
+                "name": "New",
+                "history": [],
+                "updated": "AddPanel ( 0 ) ;\\r\\nPanel ( 0 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"opacity\" : 100 } } ] ) ;\\r\\nPanel ( 0 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"if((IsEmpty(%3CSelectedValues%3E))%2C(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%2C%20(%3CFrame%3E%20%7C%20SetFrameFilter(%3CSelectedColumn%3E%3D%3D%3CSelectedValues%3E)))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;\\r\\nPanel ( 0 ) | RetrievePanelEvents ( ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22echarts%5C%22%7D\" ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"pipeline\" , \"%7B%5C%22app_id%5C%22%3A%5C%223b3e4a3b-d382-4e98-9950-9b4e8b308c1c%5C%22%7D\" ) ;\\r\\nAddPanel ( 0 ) ;\\r\\nPanel ( 0 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"opacity\" : 100 } } ] ) ;\\r\\nPanel ( 0 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"if((IsEmpty(%3CSelectedValues%3E))%2C(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%2C%20(%3CFrame%3E%20%7C%20SetFrameFilter(%3CSelectedColumn%3E%3D%3D%3CSelectedValues%3E)))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;\\r\\nPanel ( 0 ) | RetrievePanelEvents ( ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22echarts%5C%22%7D\" ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"pipeline\" , \"%7B%5C%22app_id%5C%22%3A%5C%223b3e4a3b-d382-4e98-9950-9b4e8b308c1c%5C%22%7D\" ) ;\\r\\nDatabase ( database \u003d [ \"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\" ] ) | Query ( \"SELECT%20server_ip%20as%20\u0027Source\u0027%2Cremote_ip%20as%20\u0027Target\u0027%2CconnectionDirection%20as%20\u0027ConnectionDirection\u0027%2Cport_used%20as%20\u0027SourcePort\u0027%2Cremote_port%20as%20\u0027RemotePort\u0027%2Cbusiness_application%20as%20\u0027SourceBA\u0027%2C%5Cr%5Cnremote_business_application%20as%20\u0027TargetBA\u0027%2Cprotocol%20as%20\u0027Protocol\u0027%2Csubnet%20as%20\u0027Subnet\u0027%2Cenvironment%20as\u0027Environment\u0027%2Clocation%20as%20\u0027Location\u0027%20FROM%20atadata_db.affinityview%20where%20connectionDirection%3D%20%5C%22Outbound%5C%22%20or%20connectionDirection%3D%5C%22Internal%5C%22%5Cr%5Cnunion%5Cr%5CnSELECT%20remote_ip%20as%20\u0027Source\u0027%2Cserver_ip%20as%20\u0027Target\u0027%2CconnectionDirection%20as%20\u0027ConnectionDirection\u0027%2Cremote_port%20as%20\u0027SourcePort\u0027%2Cport_used%20as%20\u0027RemotePort\u0027%2Cremote_business_application%20as%20\u0027SourceBA\u0027%2C%5Cr%5Cnbusiness_application%20as%20\u0027TargetBA\u0027%2Cprotocol%20as%20\u0027Protocol\u0027%2Csubnet%20as%20\u0027Subnet\u0027%2Cenvironment%20as\u0027Environment\u0027%2Clocation%20as%20\u0027Location\u0027%20FROM%20atadata_db.affinityview%20where%20connectionDirection%3D%20%5C%22Inbound%5C%22\" ) | Import ( frame \u003d [ CreateFrame ( frameType \u003d [ R ] , override \u003d [ true ] ) .as ( [ \"AFFINITYGRAPHFRAME\" ] ) ] ) ;\\r\\nAFFINITYGRAPHFRAME | SplitUnpivot ( columns \u003d [ \"SourcePort\" ] , delimiter \u003d [ \";\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | SplitUnpivot ( columns \u003d [ \"RemotePort\" ] , delimiter \u003d [ \";\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"SourceBA\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( SourceBA , \"Unknown\" , Filter ( SourceBA \u003d\u003d \"null\" ) ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"TargetBA\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( TargetBA , \"Unknown\" , Filter ( TargetBA \u003d\u003d \"null\" ) ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"Subnet\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( Subnet , \"Unknown\" , Filter ( Subnet \u003d\u003d \"null\" ) ) ;\\r\\nAFFINITYGRAPHFRAME | ReplaceColumnValue ( column \u003d [ \"Location\" ] , value \u003d [ \"\" ] , newValue \u003d [ \"Unknown\" ] ) ;\\r\\nAFFINITYGRAPHFRAME | UpdateRowValues ( Environment , \"Unknown\" , Filter ( Environment \u003d\u003d \"null\" ) ) ;\\r\\nPanel ( 0 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22standard%5C%22%7D\" ) ;\\r\\nFrame ( frame \u003d [ AFFINITYGRAPHFRAME ] ) | Select ( Source , Target ) .as ( [ source , target ] ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027graph\u0027 ] , options \u003d [ { \"connections\" : \"source.target;\" , \"alias\" : \"source.source;target.source\" , \"color\" : \"FF0000\" } ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Graph\" , \"alignment\" : { \"start\" : [ \"source\" ] , \"end\" : [ \"target\" ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ;\\r\\nPanel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.displayValues\" ) ;\\r\\nAddPanel ( 1 ) ;\\r\\nPanel ( 1 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 1 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 1 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Source\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 2 ) ;\\r\\nPanel ( 2 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"subType\" : \"UNFILTER\" , \"opacity\" : 100 , \"labelOverride\" : true , \"panelLabel\" : \"Unfilter Sheet\" , \"zIndex\" : 4 } } ] ) ;\\r\\nPanel ( 2 ) | SetPanelView ( \"unfilter-sheet\" ) ;\\r\\nAddPanel ( 3 ) ;\\r\\nPanel ( 3 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 3 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 3 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Target\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 4 ) ;\\r\\nPanel ( 4 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 4 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 4 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"SourcePort\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 5 ) ;\\r\\nPanel ( 5 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 5 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 5 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"RemotePort\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 6 ) ;\\r\\nPanel ( 6 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 6 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 6 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Protocol\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 7 ) ;\\r\\nPanel ( 7 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 7 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 7 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Location\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 8 ) ;\\r\\nPanel ( 8 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 8 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 8 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"SourceBA\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 9 ) ;\\r\\nPanel ( 9 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 9 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 9 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"TargetBA\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 10 ) ;\\r\\nPanel ( 10 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 10 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 10 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Subnet\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nAddPanel ( 11 ) ;\\r\\nPanel ( 11 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"COLLAPSIBLE\" , \"opacity\" : 100 , \"subType\" : \"\" } } ] ) ;\\r\\nPanel ( 11 ) | SetPanelView ( \"DashboardFilter\" , \"%7B%5C%22autoRun%5C%22%3Atrue%2C%5C%22frame%5C%22%3A%5C%22AFFINITYGRAPHFRAME%5C%22%7D\" ) ;\\r\\nPanel ( 11 ) | AddPanelOrnaments ( { \"dashboardFilter\" : { \"singleSelect\" : \"Multi Select\" , \"viewType\" : \"List\" , \"instances\" : [ \"Environment\" ] } } ) | RetrievePanelOrnaments ( \"dashboardFilter\" ) ;\\r\\nDatabase ( database \u003d [ \"3b3e4a3b-d382-4e98-9950-9b4e8b308c1c\" ] ) | Query ( \"select%20distinct%20server_ip%20as%20\u0027IPs\u0027%20from%20affinityview%20where%20connectionDirection%20!%3D%20%5C%22Unknown%5C%22\" ) | Import ( frame \u003d [ CreateFrame ( frameType \u003d [ R ] , override \u003d [ true ] ) .as ( [ \"ServerListFrame\" ] ) ] ) ;\\r\\nAddPanel ( 15 ) ;\\r\\nPanel ( 15 ) | AddPanelConfig ( config \u003d [ { \"config\" : { \"type\" : \"STANDARD\" , \"opacity\" : 100 } } ] ) ;\\r\\nPanel ( 15 ) | AddPanelEvents ( { \"onSingleClick\" : { \"Unfilter\" : [ { \"panel\" : \"\" , \"query\" : \"(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabledVisuals\" : [ \"Grid\" , \"Sunburst\" ] , \"disabled\" : false } ] } , \"onBrush\" : { \"Filter\" : [ { \"panel\" : \"\" , \"query\" : \"if((IsEmpty(%3CSelectedValues%3E))%2C(%3CFrame%3E%20%7C%20UnfilterFrame(%3CSelectedColumn%3E))%2C%20(%3CFrame%3E%20%7C%20SetFrameFilter(%3CSelectedColumn%3E%3D%3D%3CSelectedValues%3E)))%3B\" , \"options\" : { } , \"refresh\" : false , \"default\" : true , \"disabled\" : false } ] } } ) ;\\r\\nPanel ( 15 ) | RetrievePanelEvents ( ) ;\\r\\nPanel ( 15 ) | SetPanelView ( \"visualization\" , \"%7B%5C%22type%5C%22%3A%5C%22echarts%5C%22%7D\" ) ;\\r\\nFrame ( frame \u003d [ ServerListFrame ] ) | Select ( IPs ) .as ( [ IPs ] ) | With ( Panel ( 15 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"15\" : { \"layout\" : \"Grid\" , \"alignment\" : { \"label\" : [ \"Source\" ] } } } ) | Collect ( 2000 ) ;",
+                "content": "",
+                "open": false,
+                "space": ""
+              }
+            ],
+            "selected": 0
+          },
+          "required": false,
+          "frame": true
+        }
+      },
+      "key": "pipeline--1610031328323"
+    }
+  }
+}
