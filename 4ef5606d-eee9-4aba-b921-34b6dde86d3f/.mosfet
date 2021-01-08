@@ -34,6 +34,7 @@
     "Frame ( frame \u003d [ FRAME811504 ] ) | Select ( business_application ) .as ( [ business_application ] ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Grid\" , \"alignment\" : { \"label\" : [ \"business_application\" ] } } } ) | Collect ( 2000 ) ;",
     "if ( ( FRAME811504 | HasDuplicates ( hostname ) ) , ( Frame ( frame \u003d [ FRAME811504 ] ) | Select ( hostname , Average ( environment_ID ) ) .as ( [ hostname , Average_of_environment_ID ] ) | Group ( hostname ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Line\" , \"alignment\" : { \"label\" : [ \"hostname\" ] , \"value\" : [ \"Average_of_environment_ID\" ] , \"tooltip\" : [ ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ) , ( Frame ( frame \u003d [ FRAME811504 ] ) | Select ( hostname , environment_ID ) .as ( [ hostname , environment_ID ] ) | With ( Panel ( 0 ) ) | Format ( type \u003d [ \u0027table\u0027 ] ) | TaskOptions ( { \"0\" : { \"layout\" : \"Line\" , \"alignment\" : { \"label\" : [ \"hostname\" ] , \"value\" : [ \"environment_ID\" ] , \"tooltip\" : [ ] , \"facet\" : [ ] } } } ) | Collect ( 2000 ) ) ) ;",
     "Panel ( 0 ) | AddPanelOrnaments ( { \"tools\" : { \"shared\" : { \"showTooltips\" : false } } } ) ;",
-    "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.showTooltips\" ) ;"
+    "Panel ( 0 ) | RetrievePanelOrnaments ( \"tools.shared.showTooltips\" ) ;",
+    "Panel ( 0 ) | SetPanelPosition ( { \"top\" : 30 , \"left\" : 35 , \"width\" : 30 , \"height\" : 20 } ) ;"
   ]
 }
