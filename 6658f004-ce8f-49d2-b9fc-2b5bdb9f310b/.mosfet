@@ -1,7 +1,7 @@
 {
   "engineId": "3b3e4a3b-d382-4e98-9950-9b4e8b308c1c",
   "rdbmsId": "6658f004-ce8f-49d2-b9fc-2b5bdb9f310b",
-  "insightName": "Affinity Network Graph 2",
+  "insightName": "Affinity Network Graph",
   "layout": "Grid",
   "hidden": false,
   "recipe": [
