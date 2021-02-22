@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME950866">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<IsPrimKey xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IsPrimKey>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__CPU_PERCENTAGE">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME950866">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME950866__CPU_PERCENTAGE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__CPU_PERCENTAGE">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">FRAME_QUERY:::FRAME950866__CPU_PERCENTAGE</QueryStructName>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">CPU_PERCENTAGE</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IsDerived>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__DATA_COLLECTION_TIME">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME950866">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME950866__DATA_COLLECTION_TIME"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__DATA_COLLECTION_TIME">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">FRAME_QUERY:::FRAME950866__DATA_COLLECTION_TIME</QueryStructName>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">DATA_COLLECTION_TIME</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">TIMESTAMP</DatatypeProperty>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IsDerived>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__hostname">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME950866">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME950866__hostname"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__hostname">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">FRAME_QUERY:::FRAME950866__hostname</QueryStructName>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">hostname</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IsDerived>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__ID">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME950866">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME950866__ID"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__ID">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">FRAME_QUERY:::FRAME950866__ID</QueryStructName>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">ID</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IsDerived>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__SERVER_ID">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME950866">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME950866__SERVER_ID"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__SERVER_ID">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">FRAME_QUERY:::FRAME950866__SERVER_ID</QueryStructName>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">SERVER_ID</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IsDerived>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__server_ip">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME950866">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME950866__server_ip"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME950866__server_ip">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">FRAME_QUERY:::FRAME950866__server_ip</QueryStructName>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">server_ip</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IsDerived>
+</rdf:Description>
+
+</rdf:RDF>

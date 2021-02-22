@@ -1,0 +1,1 @@
+with(a5f2de3393c674bd69a4f6f983755c61d, {ROOT <- 'C:/semoss/semosshome/db/Atadata2__3b3e4a3b-d382-4e98-9950-9b4e8b308c1c/version/f6ba5938-ef1b-4430-b7b0-261d1cc8174d';source("C:/semoss/semosshome/R/AnalyticsRoutineScripts/SummaryStats.R");smryDta4odVp7<- getSmryDt(FRAME951665,'auth_profile');});
